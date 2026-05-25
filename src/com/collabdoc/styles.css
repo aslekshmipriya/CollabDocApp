@@ -1,0 +1,106 @@
+/* ================= GLOBAL ================= */
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f5f7fb;
+}
+
+/* ================= CARD (LOGIN / SIGNUP) ================= */
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 25;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 12, 0.0, 0, 6);
+}
+
+/* ================= INPUT FIELDS ================= */
+
+.input {
+    -fx-pref-height: 38px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #e6e6e6;
+    -fx-padding: 0 10 0 10;
+}
+
+/* ================= PRIMARY BUTTON ================= */
+
+.btn-primary {
+    -fx-background-color: linear-gradient(#1976d2, #64b5f6);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16 8 16;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(#1565c0, #42a5f5);
+}
+
+/* ================= TOOLBAR ================= */
+
+.tool-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-border-color: #e6e6e6;
+}
+
+.tool-bar .button {
+    -fx-background-radius: 6;
+    -fx-background-color: linear-gradient(to bottom, #f9f9f9, #ececec);
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 6;
+    -fx-font-weight: bold;
+}
+
+.tool-bar .button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+/* ================= DOCUMENT PAGE ================= */
+.page {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 12, 0.0, 0, 6);
+    -fx-padding: 18;
+}
+/* ================= TEXT EDITOR ================= */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+}
+/* ================= RIGHT PANEL ================= */
+
+.right-panel {
+    -fx-background-color: #f4f6fb;
+    -fx-padding: 12;
+    -fx-border-color: #e6e6e6;
+}
+/* ================= STATUS BAR ================= */
+
+.status-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e6e6e6;
+    -fx-padding: 8;
+}
+
+
+
+/* ================= LOGOUT BUTTON ================= */
+
+.logout-button {
+    -fx-background-color: #e53935;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+}
+
+.logout-button:hover {
+    -fx-background-color: #c62828;
+}
+
+/* ================= LIST VIEW ================= */
+
+.list-view {
+    -fx-background-radius: 8;
+}
